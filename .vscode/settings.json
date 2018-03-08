@@ -1,0 +1,19 @@
+{
+	/* Languages */
+	// Javascript
+	"eslint.enable": true,
+	"eslint.packageManager": "yarn",
+	"eslint.options": {
+		"configFile": ".eslintrc.js"
+	},
+	"eslint.autoFixOnSave": true,
+	// JSON
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.formatOnSave": true
+	},
+	// Typescript
+	"typescript.tsdk": "./node_modules/typescript/lib"
+}
